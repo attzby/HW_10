@@ -1,0 +1,89 @@
+    1  help
+    2  help ls 
+    3  ls
+    4  cd
+    5  cdd c/users/nobody/Downloads/repo_folder
+    6  mkdir QA_GIT
+    7  mkdir QA_GIT
+    8  mkdir QA_GIT1
+    9  pwd
+   10  git config --global user.name "Eto Ya"
+   11  git config --global user.email "attzby@ukr.net"
+   12  git config --global --list
+   13  cd /c/Users/nobody/Documents/QA_GIT1
+   14  pwd
+   15  cd /C/Users/nobody/Documents/QA_GIT1
+   16  cd /C/Users/nobody/Documents/
+   17  pwd
+   18  ls
+   19  cd c/Users/nobody
+   20  cd /c/Users/nobody/Downloads
+   21  pwd
+   22  mkdir QA_GIT1
+   23  cd QA_GIT1
+   24  LS
+   25  ls
+   26  git clone https://github.com/attzby/HW_10.git
+   27  cd HW_10
+   28  ls
+   29  pwd
+   30  pwd
+   31  touch text_ignore.txt
+   32  ls
+   33  echo text_ignore.txt >> .gitignore
+   34  cat .gitignore
+   35  git status 
+   36  git rm --cached text_ignore.txt
+   37  pwd
+   38  ls
+   39  git rm --cached text_ignore.txt
+   40  ls
+   41  git status 
+   42  git add .
+   43  git status 
+   44  git commit -m "Добавлен .gitignore и проиндексированы изменения"
+   45  git status
+   46  touch main_test.txt
+   47  ls
+   48  git status 
+   49  git add .
+   50  git status 
+   51  git status 
+   52  git commit -m "Добавлен файл main_test.txt и сохранены изменения"
+   53  git status 
+   54  git checkout -b develop
+   55  git branch
+   56  pwd
+   57  git branch
+   58  touch develop_test.txt
+   59  ls
+   60  git add .
+   61  git status
+   62  git commit -m "Создан файл develop_test.txt"
+   63  git status 
+   64  nano develop_test.txt
+   65  git status 
+   66  git add .
+   67  git status 
+   68  git add .
+   69  git status 
+   70  git checkout main
+   71  pwd
+   72  git checkout main 
+   73  git merge develop
+   74  git log-3
+   75  git log -3
+   76  git checkout main
+   77  pwd
+   78  git checkout main
+   79  git merge develop
+   80  git log --oneline
+   81  git checkout main
+   82  git add .
+   83  git commit -m "Сохранены изменения в develop_test.txt"
+   84  git checkout main
+   85  pwd
+   86  git checkout main
+   87  git merge develop
+   88  git log --oneline -3
+   89  history > command_list.csv
